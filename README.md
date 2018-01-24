@@ -4,7 +4,7 @@ In this project, I created a recommendation engine for vacation spots and activi
   
 Key steps outlined below:  
   
-Step 1: Scrape reviews from TripAdvisor (See [scrapy_atl_tripadvisor.py](https://github.com/shireen121/vacation_recommender/blob/master/scrapy_atl_tripadvisor.py))  
+Step 1: Scrape reviews from TripAdvisor (See [scrapy_atl_tripadvisor.py](https://github.com/shireen121/vacation_recommender/blob/master/scrapy_atl_tripadvisor.py) for scrapy code for one city)  
 Step 2: Dimensionality reduction utilizing LDA topic modeling with reviews (See [main_workbook.ipynb](https://github.com/shireen121/vacation_recommender/blob/master/main_workbook.ipynb) for Steps 2-4)  
 Step 3: Calculate similarities between activities based on topic distribution of reviews  
 Step 4: Create Recommendation Engine  
